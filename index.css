@@ -1,0 +1,56 @@
+*{
+    background-color:rgb(3, 30, 53);
+}
+
+a{
+    font-size: 50px;
+    text-decoration: none;
+    display:inline-block;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin: 5px;
+    padding: 25px 15px;
+    border: solid gold;
+    font-family: monospace;
+    background-color:rgba(255, 238, 0, 0);
+    transition: 0.3s;
+    color: rgb(34, 11, 245);
+}
+
+div{
+}
+
+a:hover{
+    transform: scale(1.1);
+}
+
+.google:hover{
+    
+    box-shadow: 5px 10px green;
+    color: green;
+}
+
+.youtube:hover{
+    
+    box-shadow: 5px 10px red;
+    color: red;
+}
+
+.gmail:hover{
+    
+    box-shadow: 5px 10px rgb(211, 12, 201);
+    color: rgb(211, 12, 201);
+}
+
+.reddit:hover{
+    
+    box-shadow: 5px 10px orange;
+    color: orange;
+}
+
+.discord:hover{
+    
+    box-shadow: 5px 10px rgb(103, 76, 221);
+    color: rgb(103, 76, 221);
+}
